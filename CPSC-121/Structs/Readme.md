@@ -7,6 +7,7 @@ for their course. Constuct the struct(s) given the following information.
 
 
 Assignment 2:
+
 Using the stuct you created, create an array of Students and call it "classroom". There are a maximum
 of 35 students in a classroom. After that, initialize (through cin) the students information that are
 enrolled in the classroom. If you have enough time, display all the students information.
