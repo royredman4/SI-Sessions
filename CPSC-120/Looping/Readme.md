@@ -6,7 +6,11 @@ be able to input the exact amount of items they want to add up. Following that, 
 will ask the user for the following items to add up, then displays the total at the end.
 
 
-Assignment #2: The user wants to create an image of a diamond. The program will ask the user
+Assignemnt #2: Explain the differences between global and local scopes. Create a program that
+shows/explains how the local/global variables are used.
+
+
+Assignment #3: The user wants to create an image of a diamond. The program will ask the user
 how big the largest size of the diameter of the diamond to be. Once inputted, the program will
 display a diamond for the user. Example is down below:
 
