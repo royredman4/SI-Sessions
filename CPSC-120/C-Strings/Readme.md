@@ -12,8 +12,11 @@ to ensure it was saved. Finally, a third C-String will be created and it will st
 the third C-String for ensuring that it was done properly. Here is an example:
 
 please enter a word (no longer than 12 letters): Cat
-The word you entered is: Cat
-please enter a  second word (no longer than 12 letters): Dog
-The word you entered is: Dog
-The combination of your two words is: CatDog
 
+The word you entered is: Cat
+
+please enter a  second word (no longer than 12 letters): Dog
+
+The word you entered is: Dog
+
+The combination of your two words is: CatDog
