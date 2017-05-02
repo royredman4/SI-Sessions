@@ -6,9 +6,14 @@ the main like any other standard function.
 
 Assignment #2: Create a function that will calculate your monthly paywage based on the
 number of hours you have worked that month, and also how much you get paid on a monthly
-basis. Return the results to the main.
+basis. Return the results to the main to be outputted to the user.
 
 
 Assignment #3: (Extension of assignment #2) Create a second function that will use that
 paywage information and the current tax rate and calculate the actual monthly paywage
-after taxes have been removed from the paycheck. Return the results to the main.
+after taxes have been removed from the paycheck. Return the results to the main to be
+outputted to the user.
+
+
+Assignment #4: Create the previous assignment without using any return statements
+(take some time to think about this) and output the values in the main.
