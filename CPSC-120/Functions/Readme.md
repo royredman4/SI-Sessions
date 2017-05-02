@@ -20,3 +20,13 @@ outputted to the user.
 
 Assignment #4: Create the previous assignment without using any return statements
 (take some time to think about this) and output the values in the main.
+
+
+Assignment #5: Create a function that will take a users full name (as parameters). If
+the user does not have a middle name, DO NOT pass that argument to the function. Use
+a default argument to indicate that the user does not have a middle name. In the function,
+you will take their full name and save it as one string. The function will return the string
+to the main and the main will output it to the user.
+
+Assignment #6: Same as Assignment #5, but instead, use function overloading to solve this issue,
+(instead of default arguments)
