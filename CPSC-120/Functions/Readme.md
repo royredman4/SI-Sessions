@@ -1,7 +1,8 @@
 Assignment #1: Explain why functions can be useful. Explain the advantages of it and
 how it can be implemented. Explain also the differences in passing by value and passing
 by reference. Explain the details about return statements also. Explain the issue of calling
-the main like any other standard function.
+the main like any other standard function. Explain what happens to the variables/parameters
+when you exit the function call.
 
 
 Assignment #2: Create a function that will calculate your monthly paywage based on the
