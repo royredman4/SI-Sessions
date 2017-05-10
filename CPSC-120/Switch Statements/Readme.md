@@ -2,13 +2,13 @@ Assignemnt #1:  Create a menu that will create an output and should be able
                 to output what they purchased based on the following output:
                 
                   
------------------------------------------------------
-|   1. Hamburgers                                   |
-|   2. Hot Dogs                                     |
-|   3. Chicken                                      |
-|   4. Pancakes                                     |
-|                                                   |
------------------------------------------------------
+------------------------------------------------------
+||   1. Hamburgers                                  ||
+||   2. Hot Dogs                                    ||
+||   3. Chicken                                     ||
+||   4. Pancakes                                    ||
+||                                                  ||
+------------------------------------------------------
 
 
 Your input: 4
