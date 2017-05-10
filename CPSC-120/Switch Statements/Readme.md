@@ -1,4 +1,4 @@
-Assignemnt #1:  Create a menu that will create an output and should be able 
+Assignment #1:  Create a menu that will create an output and should be able 
                 to output what they purchased based on the following output:
                 
                   
