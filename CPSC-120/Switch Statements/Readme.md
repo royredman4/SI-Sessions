@@ -3,13 +3,13 @@ Assignemnt #1:  Create a menu that will create an output and should be able
                 
                   
 ____________________________________________________
-|   1. Hamburgers                                  
-|   2. Hot Dogs                                    
-|   3. Chicken                                     
-|   4. Pancakes                                    
-|    
-|   Your input: 4
-|   You have selected: Pancakes. Enjoy!!
+|   1. Hamburgers                                  |
+|   2. Hot Dogs                                    |
+|   3. Chicken                                     |
+|   4. Pancakes                                    |
+|                                                  |
+|   Your input: 4                                  |
+|   You have selected: Pancakes. Enjoy!!           |
 ____________________________________________________
 
 
