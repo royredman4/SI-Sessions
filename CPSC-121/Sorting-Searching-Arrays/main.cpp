@@ -36,6 +36,8 @@ int main() {
   cout << endl << "Press enter to continue: ";
   cin.get();
   cout << endl << "After organizing (please wait, it will take a while)" << endl;
+  
+  // comment/uncomment each sorting algorithm and compare the two
   BubbleSort(Values, SIZE);
   // SelectionSort(Values, SIZE);
   DisplayArray(Values, SIZE);
