@@ -9,8 +9,8 @@ They are usually taught in the following order:
 5. Functions with returns, functions with references
 6. Structs
 7. Templates
-8. Arrays, Sorting
-9. Sorting and Searching
+8. Arrays
+9. Sorting and Searching with Arrays
 10. Pointers, Dynamic Allocation
 11. Classes
 12. Inheritance
