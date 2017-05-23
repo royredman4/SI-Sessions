@@ -12,6 +12,8 @@ int main() {
   string filename = "coins.txt";
   string quarter, dime, nickel, penny;
   int qcount, dcount, ncount, pcount;
+  
+  // Assignment #3
   ifstream in(filename);
 
   if(in.is_open()) {
@@ -38,6 +40,8 @@ int main() {
   cout << "Total value is: " << (qcount *25) + (dcount *10) + (ncount * 5) + pcount << " cents" << endl << endl;
 
   int input, value;
+
+  // Assignment #2
   do {
     cout << "What would you like to input?" << endl;
     cout << "1. Quarters" << endl;
@@ -78,6 +82,7 @@ default:
                                     
   } while (input < 5 &&  input > 0);
 
+  // Assignment #3
   ofstream output(filename);
   output << quarter << " " << qcount << endl;
   output << dime << " " << dcount << endl;
