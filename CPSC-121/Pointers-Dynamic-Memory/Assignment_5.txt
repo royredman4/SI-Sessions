@@ -1,0 +1,52 @@
+Pointers can be extremely useful mainly for dynamically allocated 
+arrays. There are a couple of benefits to having a dynamically 
+allocated arrays. One big reason is that you are able to create an
+array using a standard variable rather than hard coding or using
+a const variable. Here is an example.
+
+int SIZE;
+cout << "Enter how big you want the array to be"
+cin >> SIZE;
+
+int* ary = new int[SIZE];
+
+Previously, you couldn't use a changing variable to create an array
+of a certain size, but dynamic allocation allows this all to happen
+whenever necessary.
+
+Another benefit of this is that your array can utilize all of your 
+available ram for its array, rather than a standard array can.
+A standard array can only hold as much data as a stack can usually
+hold. You may need to create an array of 20 million indexes in an
+array, but cannot hold that much because of a stack overflow. This
+is where the dynamically allocated arrays can be useful. They will
+use as much ram space as you have available to do what you need to
+do
+
+Another benefit is that you can delete your array to save space during
+the programs runtime. If you wanted to use a 20 million array in one
+portion of the program but want to delete it later during the program
+(to save the space for other things to be done in the program), then
+this can be done with dynamically allocated arrays. Standard arrays 
+will never be destroyed unless its current stack is being destroyed
+(i.e. the function has returned and you aren't in the function anymore).
+For arrays created in the main, the array won't be destroyed until
+the end of the program, which can be problematic if you need that
+space for other tasks.
+
+The last benefit of dynamically allocated arrays is that it can
+be used to create a self allocating array, that will make an
+array bigger an bigger depending on how many things the user/program
+needs to store. For example, if an array starts at a size of 2, and the
+user wants to store a third item (through clever programming), we can 
+have the array automatically allocate to a bigger array size allowing for
+as much space as the user needs to store. This allows programs to always 
+be able to be as big or small the user needs it to be without having
+to close the program, making the array bigger, then rerunning the program
+again every time the user needs a bigger array. This is very usefull 
+for companies that are always expanding with information (Think about
+Amazon and its customers. It's always growning, so they use dynamic
+arrays to keep their program up to date).
+
+Overall, Dynamically allocated arrays are extremely useful to learn about
+and will be seen every single day in Data Structures. 
