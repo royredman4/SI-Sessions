@@ -1,0 +1,39 @@
+Functions are useful for multiple reasons. The first reason is that
+the programming code in a function can be used multiple times, without
+the need of creating the exact same code over and over again in your main
+portion. Also, functions allow the user to just call the function and not
+worry about the code that is involved with it, and just assume it works 
+the way it is advertised. This allows for alot of simplicity on the user 
+side in doing what they want to do, without caring how it is actually
+done. 
+
+The difference between passing by value and passing by reference is the
+following: Passing by value, makes an exact copy of the variable being 
+passed into the function and only changes the copied variable, not the
+original. So, when the function is returned, then the original variable
+is no different than it was before. Passing by reference passes the exact
+variable over to the function, so any changes to the function parameter
+will also alter the variable from the main. If you return out of the
+function and a variable is passed by reference, then it will remain the
+changed value from inside the function, while those passed by value, will
+be the original value that it was before the function call.
+
+Default values allows the user to pass a parameter for that variable or not.
+If the program makes a function call to that function with all arguments
+passed except for the last argument (that has a default argument), then
+the function will run normally. Here is an example:
+
+// in main
+  RandomFunction(17);
+
+// outside of main
+int RandomFunction(int a, int b = 30) {
+	return b;
+}
+
+This program will run fine with either one or two parameters being passed
+since the variable b, has a default value setup in case of if nothing is 
+passed for b, meaning that the value that will be passed is "30". If a 
+second argument did get passed through, then the default value will be
+ignored and "b" will take the value being passed to it.
+
