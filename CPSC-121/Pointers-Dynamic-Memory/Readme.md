@@ -21,3 +21,6 @@ that will be able to adapt to larger reciept sizes than your original dynamic ar
 Assignment #4: Do the same as assignment #3, but use a vector instead of the
 dynamic array allocations. What is the differences and similarities between using 
 a vector compared to creating an alternating dynamic array?
+
+Assignment #5: Explain why pointers and dynamic memory is useful to use.
+How does a dynamically allocated array differ from a standard array?
