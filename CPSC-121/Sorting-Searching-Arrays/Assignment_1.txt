@@ -1,0 +1,30 @@
+Bubble sort and Selective sort are ways of sorting arrays or
+pieces of information in a way that it is origanized in an
+preferred order. The most popular order is from smallest to
+largest. Bubble sort does this by checking its left side and
+its right side of the current index and sees if its left side
+is smaller than its right side. It keeps doing this until its 
+at the end of the array, and does it again and again either until
+they do it n times, or if all the orders are organized.
+
+Selective sort looks at one index and compares every other index
+to it until it hits the end of the array. Once it does that, it starts
+over and looks at the next index and compares it to the following indexes.
+
+Binary search is a quick algorthim that breaks up an array into halves
+(assuming the array is in order) and keeps looking for the value while
+breaking it up into more halves. It will return the index if it finds
+it, otherwise say that it doesn't exist.
+
+If you have already done the assignments for this topic, you will know
+that these sorting algorithms take a very long time to sort everything
+out for large arrays. This is important in much larger programs, where
+a different algorithm could mean waiting 2 minutes for it to sort 
+compared to 30 minutes. Unfortunately, these algorithms that we covered
+aren't great for large arrays, but can be useful for small ones. Better
+algorithms for sorting is usually, merge-sort, insertion-sort, and
+heap-sort. In Data Structures, this time evaluating how long the program
+will take is called Big-O Notation (O(n)). 
+
+Learning sorting and searching algorithms will help dramatically speed
+up the time necessary to run a program effectively. 
