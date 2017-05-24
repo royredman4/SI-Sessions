@@ -1,0 +1,26 @@
+Structs are really useful for being able to categorizing a
+set of variables into one data type. For example, a Dog
+cannot be only defined by one variable. A Dog have many
+pieces of information related to itself. It has a breed
+type, a certain color of hair and its daily food intake.
+We can combine that into one data type, that we will call
+Dog. Here is an example:
+
+struct Dog{
+  string breed;
+  string hair_color;
+  double food_intake;
+}
+
+All of these variables are available to manipulate by
+creating a single variable that is type Dog, as shown below
+
+Dog myDog;
+
+myDog.breed = "Husky";
+myDog.food_intake = 23.3;
+
+you can set all the variables for "myDog" and it will stay
+there nicely into each varible. This is why the struct 
+can be useful for programming, it holds all the variables
+you need into one nicely planned out struct (structure)
