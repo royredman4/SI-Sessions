@@ -1,0 +1,6 @@
+Exception handling can be extremely useful in detecting possibly
+fatal errors before it happens and making sure that your program
+runs fine, following that error. Exception handling allows your 
+program to run safely for when people try tampering with your
+program or accidently mess up during the program. It can be
+useful with security in mind.
