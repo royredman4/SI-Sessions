@@ -1,0 +1,33 @@
+Overloaded operators allows the user in the main to natively use
+operators like ">>, <<, +, -, /, <, >, etc...." with objects 
+for a handmade class we created. For example, if we created a 
+class called "Apples", and what if we did the following in main:
+
+
+Apples Apple1();
+Apples Apple2(); 
+
+if (Apple1 > Apple2) {
+  cout << "Apple 1 is better than Apple 2";
+}
+
+else if (Apple1 < Apple2) {
+  cout << "Apple 2 is better than Apple 1";
+}
+
+else {
+  cout << "They are both the same";
+}
+
+
+When looking at this code, what are we comparing (using < and >) 
+between the two objects? Without the overloaded operators, the
+compiler wouldn't understand how to compare two objects. Are we
+comparing the price of the two apples? are we comparing the
+fiber amount we get from them? Are we comparing the calorie
+intake from each apple? When we create an overloaded function,
+we are telling the compiler EXACTLY what we are comparing between
+the two objects. This makes it easy for the person using the main
+to simply do what they need to do, without looking at the technicallities
+on how it is actually done in the background. This is what makes
+overloaded operators so powerful and convienient.
