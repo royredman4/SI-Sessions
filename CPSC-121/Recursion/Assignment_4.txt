@@ -1,0 +1,9 @@
+Recursion is really useful because all of your code is 
+cleanly layed out in a simple couple of lines of code
+but is done multiple times overall. Usually recursion
+involves slightly less code than using a loop. This 
+is very similair to something like a for loop, but 
+usually tends to be preferred more in the field 
+overall.It isn't completely usefull now, but in the 
+Data Structures class, you will be using it alot with 
+larger structures like a linked-lists and binary trees. 
