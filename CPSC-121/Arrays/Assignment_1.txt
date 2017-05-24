@@ -1,0 +1,37 @@
+Why are arrays useful? There are actually many 
+reasons why arrays are useful for programmers.
+The main reason that Arrays are useful to 
+programmers is that allows us to group together
+a large set of a datatype together without having
+to create x variables for it. Here is an example.
+
+
+int a = 7, b = 12, c = 33, d = 96, e = 105;
+
+having 5 int variables can be a little messy to
+create and also manipulate in a program. Creating
+an array can actually simplify this by allowing
+all of the variables to be created within one array.
+Here is an example:
+
+int ary[5] = { 7, 12, 33, 96, 105};
+
+This allows all of our int variables to be bunched 
+up with one variable for easy storage and access. An
+array can be of any data type (even based off class types),
+and technically can be limited by the stack space (not necessary
+to know yet), but can be a huge array. One of the sorting
+assignments holds 100,000 items inside of it (so you shouldn't
+need to worry if your size doesn't go beyond that).
+
+There is one limitation with this. A standard array can only
+be created based on a constant value (a.k.a hard coding or 
+const variable). In the previous example, I hard coded the
+size of the array to be 5, meaning that you cannot ask the
+user how big they want it to be, and create the array based
+on that. If you want to do that, you can do it dynamically
+with pointers to get around that issue. We also covered that
+in the pointers assignment if you are curious. Overall, it allows
+you to bunch up all your variables of a same datatype together
+to make it easier for you and the user to maintain information
+they need.
