@@ -1,0 +1,58 @@
+There are many reasons why classes can be more benificial
+in general. Classes allow alot of function calls to be 
+hidden to the overall user in the main, while also allowing
+the main to have alow of major functionality readily available
+to the user. An easy way of thinking about this is by using the
+string library. An easy way of getting the length of a string is
+by doing the following.
+
+string blah = "Hello World!";
+blah.length();  // returns 12
+
+Since we used the function call ".length()", we easily were able
+to get the length of the string, without bogging down our main.cpp
+file with various amounts of code for not only that function, but
+all other useful functions that string and all other libraries have.
+This allows our overall program to be cleaner looking and more organized.
+This brings up the next reason why.
+
+Since we only usually need to find the length of a string datatype,
+we can only allow it to be used with the string datatype, so it is
+easier for programmers to understand which functions are meant for
+which objects.
+
+Another big reason for having classes, is that it allows our important
+information to be privatized from users incorrectly changing it. For
+example, in the string, we cannot dirrectly tell the string variable 
+that it now is of a different length by changing its class data members 
+(class variable). If we did, then the length and the actual length of 
+the string would be inaccurate, causing an error while the program is 
+running. Instead, we can indirectly change the length of the string by
+changing what is inside the string, for example,
+
+blah = "Hi";
+
+calling blah.length() is now 2, instead of 12. Classes allows the private
+variables in our classes to remain locked down to prevent direct 
+manipulation and allows the class to protect the variables of its class
+to prevent tampering of the class or its variables.
+
+Classes and structs are almost the same thing. There is really only one
+difference to the two. Classes are private by default, whereas structs
+are public by default. private means that the main user cannot directly
+access the values, whereas public means that they can. That being said,
+a class can be manipulated to be exactly the same as a struct and vice
+versa if necessary. But we usually want to use structs when we want our
+variables to be completely public and classes when we want some variables
+private with functions being public.
+
+Methods and functions are very similair to eachother. In the class header
+file, it is more or less the same as a function prototype. It identifies 
+that there will be a method available to use, similair to a function prototype
+in the main. Also, the body of methods and functions are very similair
+also. One difference is that you need to tell the method what class it is 
+coming from, and the function name in the body (ex: Car::buy_Car). Another
+difference is that the methods can utilize class data members, while functions
+cannot.
+
+Overall, classes are extremely useful to learn in the future.
