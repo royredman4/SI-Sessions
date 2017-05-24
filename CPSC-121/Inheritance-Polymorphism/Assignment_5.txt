@@ -1,0 +1,53 @@
+Inheritance allows the programmer to be able to create a class that is
+unique in its own way, while also being dependant on using all the 
+functionality of another class. For example, creating a class called
+"Shapes" could be useful because there are things that every shape
+has related to itself. Every shape has an area and a perimeter to itself.
+But, a triangle calculates the area by using the base and the height
+(ex: (1/2)bh). Since the triangle needs to use the area and perimeter,
+while also storing its information about its base and height, the triangle
+class can "Inherit" the shapes class. This allows the triangle class
+to use the Shapes class as if it was in the triangle class, without
+requiring to rewrite that code into the triangle class specifically. This
+can also expand for multiple shapes, all inheriting the shapes class,
+making it very clean to read the code, while having all the functionallity
+as if each shape had all of the shape code inside each of its classes.
+
+The main difference between Inheritance and Polymorphism has to do with
+the virtual keyword. Inheritance is exactly what I stated before in this
+text file. Polymorphism is when we include virtual functions into the
+classes using (derived classes) and being used (base class) by inheritance.
+virtual functions allows a dynamically array to be created in the main
+based off the base class data type and allows you to be able to utilize
+all the derived classes normally as they need to inside the array. Here is
+an example of this:
+
+Shape* ShpArry[2];
+ShpAry = new Triangle(6,3); //passing the base and height
+ShpAry = new Rectangle(3,3); // passing the width and length
+
+ShpAry[0]->PrintInfo();
+ShpAry[1]->PrintInfo();
+
+If we did this without virtual functions, creating the Triangle and
+Rectangle data types would cause the array to only print out information
+that is in the Shapes class (since it can only hold data
+types of type "Shape" into the array). That also means that the Triangle
+and Rectangle class cannot be used to grab information while in the array.
+The result of the PrintInfo() function will output the Area and perimeters
+of the Shape class, but will not output the information that the shape
+Triangle has, like the value of the area or the value of the base. Same
+idea goes for the Rectangle class with its width and length.
+
+With virtual functions, we can utilize all of the derived classes 
+functions/variables as they are expected to work. Doing that causes
+"ShpAry[0]->PrintInfo()" to output not only the area and perimeter 
+(from the shape class), but also print out the base and height (based
+on the Triangle class). "ShpAry[1]->PrintInfo()" will print out the
+Shape classes output, but also the Rectangle classes output (width and
+height).
+
+This allows us to create an pointer array of the base class, while
+filling it up with all derived classes, and still being able to 
+manipulate/output not only the base classes information, but also
+manipulate/output the derived classes informtaion also. 
