@@ -12,3 +12,5 @@ if it contains a space in the string, if it does, replace it with
 a underscore character ("_"). Rember to do this recursively 
 (checking one character at a time). Make sure to return the 
 altered string back into the main for usage.
+
+Assignment #4:Why is recursion useful in programming?
