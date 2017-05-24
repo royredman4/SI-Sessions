@@ -1,0 +1,42 @@
+File stream allows the programmer to access a text
+file and write to a text file overall. The main difference
+between it and iostream is that one comes from/goes to the
+console, and the file stream comes from/goes to a file. 
+
+This can be extremely usefull since, our data is able to be
+stored to a file, or retrieval again when we restart the program
+again later, meaning that we can run the program, returning
+from where we left off previously. This means that you can 
+keep data and keep it updating regularly every time you re-run
+the program. This allows you to store useful data over a long
+period of time overall.
+
+This is very similair to iostream in terms of its syntax, but is
+slightly different. Example:
+
+string value;
+ofstream outfile("temp.txt);
+
+outfile << value;
+cout << value;
+
+outfile.close();
+
+
+As you can see here, aside from opening/closing the file, using
+the output command is very similair to the two. The only difference
+is that for the file variable, you use that name (outfile), instead
+of the call "cout". Otherwise, it is the same thing. Same scenario
+applies to ifsteam and cin :
+
+string value;
+ifstream infile("temp.txt);
+
+infile >> value;
+cin >> value;
+
+infile.close();
+
+Aside from the previously mentioned differences, they are very much
+the same. Overall, File Streams are extremly useful for long term storage
+and constant updating.
