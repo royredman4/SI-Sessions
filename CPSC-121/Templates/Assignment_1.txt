@@ -1,0 +1,15 @@
+Templates can be useful for multiple reasons.
+The main point about it is that you are able to
+create a function that will accept any data type
+that passes it. For example, if you have a function
+thats main purpose is to output a set of variables
+or an array of variables, you can use templates
+to cover any data type you pass it, and output it
+as desired. Since the process of outputting a
+string variable is the exact same process as
+outputting a double variable, it should be easy
+to create one function that is templated to cover
+all scenarios, rather than using function overloading
+and create multiple functions for every single
+scenario and have that function doing exactly the same
+thing as all the other overloaded functions.
