@@ -30,7 +30,8 @@ Binary search trees, recursive BST search and insertion
 recursive BST removal;
 
 # Week 11
-balanced BSTs; AVL tree introduction, AVL tree insert, remove, and restructuring
+balanced BSTs;   
+AVL tree introduction, AVL tree insert, remove, and restructuring
 
 # Week 12
 Hash tables
