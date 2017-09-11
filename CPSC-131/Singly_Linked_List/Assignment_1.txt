@@ -1,0 +1,13 @@
+A singly-linked list is a a different way of storing information than what most individuals think of. A singly-linked list is a collection of portions in dynamic memory that is stored randomly around in RAM, and are only traceable and linked together through the use of pointers. To the perspective of the user, this form of storage seems similar to arrays, but the programmer will realize that it is completely different.
+
+
+There are many benefits and disadvantages to using singly-linked lists compared to arrays.
+
+1. Singly-linked lists(SLL) have the main advantage of being easily adaptable to growing or shrinking its size compared to arrays. Static arrays have the disadvantage of being stuck at one size throughout the lifespan of its stack. Dynamic arrays or Vectors have the benefit that they are able to grow their array size whenever necessary. The main disadvantage of dynamic arrays growth, is that if they need to allocate a portion of space into ram, they would be required to create 1 large allocation that would be available for the whole array size, then manually move all of the values from the old array into the newly allocated array, making this process of creating a larger allocation a O(n) time process, which can be slow, depending on how large the array is.
+   A SLL will only be required to create an allocation that takes up the size of one element/node, and attaching that node to the end of the linked-list. This usually is a O(1) operation, making it vastly faster than vector or dynamic array.
+
+
+2. An array is much quicker to retrieve a item, than a SLL. An array is allocated as one large chunk of RAM that has indexes back-to-back in the array, making it easy to do some pointer math to jump the pointer to the right index in the array, giving it a O(1) operation. With a SLL, to get to a certain index in an array, the singly-liked list would have to move from the beginning node to the expected index node. This gives the SLL indexing performance a O(n) operation, making it much slower than going to an index in the array.
+
+
+Depending on what you are doing, a SLL or array may be useful way of storing information, based on your needs.
