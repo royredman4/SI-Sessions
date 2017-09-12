@@ -4,7 +4,9 @@ using namespace std;
 
 const int GIGABYTE = 1000000000;
 
+//This creates the memory leak based on how large the user chooses
 void Memory_Leak(int);
+//Outputs the menu that asks for how much memory to leak
 int Display_Choice();
 
 struct Node{
