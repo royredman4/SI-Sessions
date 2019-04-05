@@ -2,8 +2,7 @@ Assignment #1: Identify the differences between a C-string and a String. What is
 What is similair between them?
 
 Assignment #2: Create a C-String of 7 characters (not including the null) that will ask the user to
-fill in with a word of their choice. The program will then create a second C-string that will make a
-copy of the first C-String and output the second C-String to the user.
+fill in with a word of their choice. The program will then output the C-String to the user.
 
 Assignment #3 Ask the user to input a word of their choice (no longer than 12 letters). That word will be
 saved into one C-String and outputted to the user to ensure it was saved. The user will be asked to input another
